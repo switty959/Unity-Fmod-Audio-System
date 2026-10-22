@@ -6,6 +6,7 @@ A Unity audio system built on FMOD, with ID-based sound lookup, an event-based p
 
 ## Contents
 
+- [Versions and prerequisites](#versions-and-prerequisites)
 - [Workflow overview](#workflow-overview)
 - [Core components](#core-components)
 - [Startup and scene setup](#startup-and-scene-setup)
@@ -16,6 +17,24 @@ A Unity audio system built on FMOD, with ID-based sound lookup, an event-based p
 - [Adding a new sound](#adding-a-new-sound)
 - [Validation and troubleshooting](#validation-and-troubleshooting)
 - [Suggested developer demo](#suggested-developer-demo)
+
+## Versions and prerequisites
+
+The source project uses the following versions:
+
+| Component | Version |
+|---|---|
+| Unity Editor | **6000.5.11f1** (Unity 6.5) |
+| FMOD Unity integration API | **2.03.15** |
+
+The Unity version is recorded in [ProjectVersion.txt](ProjectSettings/ProjectVersion.txt). The FMOD version comes from `FMOD.VERSION.number` in the bundled [FMOD API](Assets/Plugins/FMOD/src/fmod.cs).
+
+These are the source project's versions, not a verified minimum compatibility range. Compatibility with other versions and clean-project package imports must be validated separately.
+
+- Install and configure the FMOD Unity integration separately when importing the standalone audio package.
+- Provide FMOD events and built banks compatible with the installed FMOD runtime.
+- Unity UI (uGUI) is required when using `UIAudioFeedback`.
+- The FMOD Studio authoring application version is not established by the integration API version above.
 
 ## Workflow overview
 
