@@ -193,7 +193,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 8929223654672131268}
   cacheVersion: 131861
-  cacheTime: 639282203387278038
+  cacheTime: 639282219626893266
   SerializableEventsDict:
   - key: event:/SoundTrack/Gameplay
     index: 0
@@ -232,7 +232,7 @@ MonoBehaviour:
   Path: FMOD/test/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639282203387262974
+  lastModified: 639282219626893266
   FileSizes: []
   Exists: 1
 --- !u!114 &1758645285508700025
@@ -412,7 +412,7 @@ MonoBehaviour:
   Path: FMOD/test/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639282203387278038
+  lastModified: 639282219626893266
   FileSizes:
   - Name: 
     Value: 1282
